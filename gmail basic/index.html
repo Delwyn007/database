@@ -22,11 +22,18 @@
         </button>
         </div>
 
+        <div class="side-bar" id="mySidebar">
+            <button class="sidebar-Bin" onclick="trash()">
+                <i class="fa fa-star" aria-hidden="true"></i>
+                Stared
+            </button>
+            </div>
+
     <div class="form-popup" id="myForm">                           
         <form  class="form-container">
             <div class="msg-first-div">
                 <h2>New Message</h2>
-                <i class="fa fa-solid fa-ban" onclick="hideMyForm()"></i>
+                <i class="fa fa-ban" aria-hidden="true" onclick="hideMyForm()"></i>
             </div>
             <div class="msg-second-div">
                 <input type="text" name="sending-to" placeholder="To" id="a">

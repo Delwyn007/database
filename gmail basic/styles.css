@@ -29,6 +29,14 @@
     color: blue;
 }
 
+
+.sidebar-Bin{
+    height: 40px;
+    margin-right: 10px;
+    background-color: white;
+    color: black;
+}
+
 .wrapper{
     position: relative;
     top: 2px;

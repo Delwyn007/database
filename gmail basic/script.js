@@ -4,9 +4,8 @@ function openForm() {
   } else {
     document.getElementById("myForm").style.display = "none";
   }
+
 }
-
-
 
 function hideMyForm() {
   document.getElementById("myForm").style.display = "none";
