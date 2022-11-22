@@ -31,10 +31,18 @@
 
 
 .sidebar-Bin{
-    height: 40px;
+    height: 30px;
     margin-right: 10px;
+    margin-bottom:40px;
+    margin-left:50px;
     background-color: white;
     color: black;
+}
+.sidebar-Bin i{
+    height: 20px;
+    margin-right: 5px;
+    background-color: white;
+    color: gold;
 }
 
 .wrapper{
@@ -50,7 +58,7 @@
     height: 60vh;
     position: relative;
     left: 800px;
-    top: 116px;
+    top: 10px;
     border-left: 1px groove;
     border-right: 1px groove;
     display: none;
@@ -88,13 +96,10 @@
 }
 
 .msg-second-div textarea{
-    width: 645px;
+    width: 507px;
     height: 275px;
     border: none;
     border-bottom: 1px groove;
     outline: none;
     padding: 10px;
 }
-
-
-

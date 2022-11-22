@@ -36,6 +36,8 @@ var sub = document.createElement("p");
 sub.className+="text"
 var com = document.createElement("p");
 var del = document.createElement("button");
+var star = document.createElement("input");
+star.type='checkbox';
 del.innerHTML='delete'
 div1.onmouseover= function(){
   var sub = div1.firstElementChild
@@ -50,7 +52,7 @@ div1.onmouseover= function(){
 var table=document.querySelector(".table");
 sub.innerHTML = "Subject: " + a +  "   compose: "+b;
 //com.innerHTML = "Compose: " + b;
-div1.append(sub,del)
+div1.append(sub,del,star)
 table.appendChild(div1)
 document.getElementById("myForm").style.display="none";
 //table.style.display=user.length===0?"none":"flex"
