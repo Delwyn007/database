@@ -38,13 +38,30 @@ var com = document.createElement("p");
 var del = document.createElement("button");
 var star = document.createElement("input");
 star.type='checkbox';
+star.className+="box1"
 del.innerHTML='delete'
+//var st = document.createElement("div");
+// st.className+='side-bar'
+// var butt1=document.createElement("button")
+// butt1.className+='sidebar-Bin'
+// st.appendChild(butt1)
 div1.onmouseover= function(){
   var sub = div1.firstElementChild
   var butt= div1.childNodes[1];
+  var box= div1.childNodes[2];
     butt.onclick=function(){
     sub.textContent="";
     butt.style.display="none";
+    box.style.display="none";
+    }
+    box.onclick=function(){
+      var on= document.querySelector(".sidebar-Bin");
+     
+    // var a=[];
+     document.getElementById("sample").innerHTML=sub.textContent
+     //a.push(sub.textContent);
+      // sub.textContent;
+           
     }
  // document.querySelector(".wrapper").style.display="none";
 }
